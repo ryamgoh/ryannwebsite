@@ -1,0 +1,64 @@
+.navbar-card {
+  /* --hover-text-color: white; */
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  gap: 15%;
+  transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+.navbar-card:hover {
+  background-color: #3b0102;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+}
+
+.navbar-card:hover .navbar-brand {
+  color: white;
+}
+
+.navbar-card:hover .navbar-links {
+  color: white;
+}
+
+.navbar-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid green; */
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  transition: color 1s ease-in-out;
+}
+
+.navbar-logo {
+  height: 5vh;
+}
+
+.navbar-logo-name {
+  font-size: 2rem;
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  justify-content: flex-start;
+  gap: 2vw;
+}
+
+.navbar-links {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  transition: color 1s ease-in-out;
+}
