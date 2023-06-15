@@ -2,11 +2,11 @@
   /* --hover-text-color: white; */
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   justify-content: center;
-  gap: 15%;
-  transition: background-color 1s ease-in-out, color 1s ease-in-out;
+  gap: 10%;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .navbar-card:hover {
@@ -36,15 +36,15 @@
   align-items: center;
   text-decoration: none;
   color: black;
-  transition: color 1s ease-in-out;
+  transition: color 0.5s ease-in-out, transform 0.5s, box-shadow 1s;
 }
 
 .navbar-logo {
-  height: 5vh;
+  height: 5vmin;
 }
 
 .navbar-logo-name {
-  font-size: 2rem;
+  font-size: 4vmin;
 }
 
 .navbar-right {
@@ -57,8 +57,22 @@
 }
 
 .navbar-links {
-  font-size: 1.5rem;
+  font-size: 3vmin;
   text-decoration: none;
   color: black;
-  transition: color 1s ease-in-out;
+  transition: color 0.5s ease-in-out, transform 0.5s, box-shadow 1s;
+}
+
+.navbar-links:hover {
+  transform: scale(1.2) perspective(0px);
+  box-shadow: 4px 4px 10px rgba(60, 60, 93, 0.33);
+}
+
+.navbar-brand:hover {
+  transform: scale(1.2) perspective(0px);
+  box-shadow: 4px 4px 10px rgba(60, 60, 93, 0.33);
+}
+
+.navbar-brand:active {
+  color: violet;
 }

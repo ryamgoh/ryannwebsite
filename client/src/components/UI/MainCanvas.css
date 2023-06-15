@@ -1,9 +1,0 @@
-.main-canvas {
-  width: 60vw;
-  /* border: 2px solid black; */
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
-}

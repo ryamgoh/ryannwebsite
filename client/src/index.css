@@ -20,4 +20,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  scroll-behavior: smooth;
+}
+
+/* removes the scroll bar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }

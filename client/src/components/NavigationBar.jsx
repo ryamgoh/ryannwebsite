@@ -1,5 +1,5 @@
 import React from "react";
-import banana from "../../assets/banana.svg";
+import banana from "../assets/banana.svg";
 import { Link } from "react-router-dom";
 import "./NavigationBar.css";
 
@@ -13,7 +13,7 @@ function NavigationBar() {
         </Link>
       </div>
       <div className="navbar-right">
-        <Link to="/work" className="navbar-links">
+        <Link reloadDocument to="/#work" className="navbar-links">
           Work
         </Link>
         <Link to="/about" className="navbar-links">
