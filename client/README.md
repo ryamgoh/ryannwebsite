@@ -12,3 +12,7 @@ https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.php
 
 https://www.emailjs.com/docs/examples/reactjs/
 https://youtu.be/bMq2riFCF90 - Chaoo Charles
+
+### Added Multi Page and Id scroll
+
+https://stackoverflow.com/questions/61779236/how-to-navigate-to-another-page-with-a-smooth-scroll-on-a-specific-id-with-react
