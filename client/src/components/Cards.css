@@ -8,17 +8,29 @@
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 50vh;
+  height: 70vh;
   flex: 1 0 50%;
   margin: 2rem;
   background-color: #fff8dc;
   /* margin-bottom: 3rem; */
   transition: transform 0.5s, box-shadow 1s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card p,
+.card h4,
+.card h2 {
+  padding: 0 20px;
+}
+
+.card h4 {
+  font-style: italic;
+  font-weight: 400;
 }
 
 .card:hover {
-  transform: scale(1.02) perspective(0px);
-  box-shadow: 4px 4px 10px rgba(60, 60, 93, 0.33);
+  transform: scale(1.03) perspective(0px);
+  box-shadow: 5px 5px 20px rgba(60, 60, 93, 0.33);
 }
 
 @media screen and (min-width: 60em) {
@@ -35,7 +47,7 @@
 
 .card-top {
   /* display: flex; */
-  height: 52%;
+  height: 42%;
   /* justify-content: center;
   align-items: center; */
 }
@@ -50,7 +62,7 @@
 
 .card-text {
   display: flex;
-  height: 40%;
+  height: 50%;
   flex-direction: column;
 }
 
