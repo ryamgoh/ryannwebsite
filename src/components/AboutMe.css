@@ -10,6 +10,10 @@
   padding: 0 3vw;
 }
 
+.about-me-main > h1 {
+  text-decoration: none;
+}
+
 .about-me-main h3 {
   /* font-size: 2vmin; */
   font-style: italic;
@@ -56,7 +60,8 @@
 }
 
 .about-me-two-col img {
-  max-height: 5vh;
+  max-height: 6vh;
+  padding: 0 3vw 0 0;
 }
 
 .about-me-title div {
