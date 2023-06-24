@@ -6,11 +6,13 @@ import VJC from "../assets/VJCCrest.png";
 function AboutMe() {
   return (
     <div className="about-me-main">
-      <p>Born in the little island of Singpaore on 2001.</p>
-      <p>Born in the little island of Singpaore on 2001.</p>
-      <p>Born in the little island of Singpaore on 2001.</p>
-      <p>Born in the little island of Singpaore on 2001.</p>
-      {/* <h1>Education</h1> */}
+      <p>
+        A determined and resilient young leader possessing strong analytical and
+        problem-solving capabilities. Committed to seeking out new opportunities
+        for knowledge acquisition and constantly enhancing personal skills.
+        Exhibits a genuine passion for learning and actively contributes to the
+        betterment of the community.
+      </p>
       <div className="about-me-two-col">
         <div className="about-me-title">
           <h2>National University of Singapore (NUS)</h2>
