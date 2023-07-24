@@ -62,7 +62,7 @@ function Home() {
     {
       lnk: card3,
       title: "Allen & Gledhill LLP",
-      position: "Corporate Secretarial Assistant",
+      position: "Assistant Corporate Secretary",
       caption: "Mar 2022 - Jul 2022",
       text: [
         "Provided valuable support to lawyers in managing a diverse portfolio of over 100 locally incorporated and foreign corporate clients.",
@@ -83,7 +83,7 @@ function Home() {
         "HustleMuscle is a fitness app that revolutionizes your fitness journey with use of 3D avatars.",
         "Powered by FERN stack (Firebase, Express, React, Node.js), Google OAuth & Google Fit API, this project aims to deliver an extraordinary workout experience.",
         "The UI is sleek and designed to captivate all users, drawing inspiration from Apple Fitness.",
-        "We are exploring the potential of gen. AI to provide customized workout prescriptions for our users. Join us and embark on a fitness journey like no other.",
+        "We are exploring the potential of generative AI to provide customized workout prescriptions for our users. Join us and embark on a fitness journey like no other.",
       ],
     },
   ];

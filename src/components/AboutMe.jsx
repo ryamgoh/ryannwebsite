@@ -24,22 +24,13 @@ function AboutMe() {
         </div>
       </div>
       <div className="about-me-two-col">
-        <h3>
-          School of Computing (Computer Science) and Second Major in Business;
-          Interested in Solutions Architect, Technical Consultancy, Artificial
-          Intelligence; Relevant Coursework: Data Structures and Algorithms;
-          Object-Oriented Programming (OOP)
-        </h3>
+        <h3>School of Computing (Computer Science)</h3>
         <h4>Aug 2022 - 2026</h4>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ad
-        iste obcaecati vero dolorum nulla totam voluptas nisi velit deleniti
-        fuga aspernatur repudiandae pariatur unde ullam nemo minima voluptatem
-        impedit dolore! Odio quibusdam quidem delectus soluta similique? Unde
-        consequatur consequuntur impedit tempore expedita? Blanditiis, eaque
-        corporis facere laborum nulla expedita sapiente aut repellat vel maxime
-        officiis adipisci pariatur sed reiciendis!
+        Interested in Solutions Architect, Technical Consultancy, Artificial
+        Intelligence; Relevant Coursework: Data Structures and Algorithms;
+        Object-Oriented Programming (OOP)
       </p>
       {/* School 2 */}
       <div className="about-me-two-col">
