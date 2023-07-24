@@ -32,15 +32,13 @@
   box-shadow: 5px 5px 20px rgba(60, 60, 93, 0.33);
 }
 
-/* @media screen and (min-width: 60em) {
-  .card {
-    max-width: calc(50% - 7em);
-  }
-} */
-
 @media screen and (max-width: 60em) {
   .card {
     height: 40rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 

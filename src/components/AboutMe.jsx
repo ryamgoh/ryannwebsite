@@ -32,6 +32,11 @@ function AboutMe() {
         Intelligence; Relevant Coursework: Data Structures and Algorithms;
         Object-Oriented Programming (OOP)
       </p>
+      <p>Case Competitions: AY22/23 | NES Ground Zero 2023 - Team Terrace</p>
+      <p>
+        Co-Curricular Activities AY22/23 | NUS SoC BASH Marketing Committee
+        AY22/23 | NUS Ambassador (Open House)
+      </p>
       {/* School 2 */}
       <div className="about-me-two-col">
         <div className="about-me-title">
@@ -44,13 +49,8 @@ function AboutMe() {
         <h4>2022 - 2024</h4>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ad
-        iste obcaecati vero dolorum nulla totam voluptas nisi velit deleniti
-        fuga aspernatur repudiandae pariatur unde ullam nemo minima voluptatem
-        impedit dolore! Odio quibusdam quidem delectus soluta similique? Unde
-        consequatur consequuntur impedit tempore expedita? Blanditiis, eaque
-        corporis facere laborum nulla expedita sapiente aut repellat vel maxime
-        officiis adipisci pariatur sed reiciendis!
+        AY22/23 | GreenT Co-President AY22/23 | Reversi (ICG Gold) AY22/23 |
+        IG^2 Modules taken: UTW1001D - On the Edges of the Law UTC1102G - Images
       </p>
       {/* School 3 */}
       <div className="about-me-two-col">
@@ -64,13 +64,12 @@ function AboutMe() {
         <h4>2018 - 2019</h4>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ad
-        iste obcaecati vero dolorum nulla totam voluptas nisi velit deleniti
-        fuga aspernatur repudiandae pariatur unde ullam nemo minima voluptatem
-        impedit dolore! Odio quibusdam quidem delectus soluta similique? Unde
-        consequatur consequuntur impedit tempore expedita? Blanditiis, eaque
-        corporis facere laborum nulla expedita sapiente aut repellat vel maxime
-        officiis adipisci pariatur sed reiciendis!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eos
+        eaque. Architecto minima quas dolores culpa! Dicta maxime suscipit
+        voluptas consequatur laudantium pariatur autem quis quasi, fuga itaque
+        nihil, laborum asperiores sed. Ad aliquam, a voluptatum ex ratione nulla
+        placeat quisquam consectetur, neque mollitia velit adipisci sit maxime
+        assumenda quis!
       </p>
     </div>
   );
