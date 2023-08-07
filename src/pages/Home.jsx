@@ -5,9 +5,12 @@ import MainCanvas from "../components/MainCanvas";
 import Cards from "../components/Cards";
 import Intro from "../components/Intro";
 import AboutMe from "../components/AboutMe";
-import card1 from "../assets/card1.jpg";
-import card2 from "../assets/card2.jpg";
-import card3 from "../assets/card3.jpg";
+import IMDA from "../assets/IMDA.jpg";
+import HustleMuscle from "../assets/HustleMuscle.png";
+import YET from "../assets/YET.png";
+import TeamE from "../assets/Team E.jpg";
+import AGCS from "../assets/AGCS.jpg";
+import Pact from "../assets/PactPage.png";
 import "./Home.css";
 
 function Home() {
@@ -26,7 +29,7 @@ function Home() {
 
   const workList = [
     {
-      lnk: "../assets/card3.jpg",
+      lnk: IMDA,
       title: "IMDA",
       position: "Product Management Intern",
       caption: "May 2023 - Aug 2023",
@@ -38,7 +41,7 @@ function Home() {
       ],
     },
     {
-      lnk: card2,
+      lnk: TeamE,
       title: "Team E",
       position: "Founding Chairperson",
       caption: "2022 - Present",
@@ -50,7 +53,7 @@ function Home() {
       ],
     },
     {
-      lnk: card3,
+      lnk: YET,
       title: "Mession Enterprise",
       position: "Entrepreneurship Trainee",
       caption: "May 2023 - Aug 2023",
@@ -62,9 +65,9 @@ function Home() {
       ],
     },
     {
-      lnk: card3,
+      lnk: AGCS,
       title: "Allen & Gledhill LLP",
-      position: "Assistant Corporate Secretary",
+      position: "Corporate Secretarial Assistant",
       caption: "Mar 2022 - Jul 2022",
       text: [
         "Provided valuable support to lawyers in managing a diverse portfolio of over 100 locally incorporated and foreign corporate clients.",
@@ -77,15 +80,27 @@ function Home() {
 
   const workList2 = [
     {
-      lnk: card2,
+      lnk: Pact,
+      title: "Pact",
+      position: "Software Developer",
+      caption: "Jul 2023 - Present",
+      text: [
+        "Pact is a social app that combines the best social media elements and infusing it into goals making",
+        "Powered by React Native, Expo, Firebase, and Google OAuth, this project aims to deliver an extraordinary goal setting experience.",
+        "Pursuing VC programmes like Venture Initiative Programme (VIP) and Lee Kuan Yew Global Business Plan Competition (LKYGBPC).",
+      ],
+    },
+    {
+      lnk: HustleMuscle,
       title: "HustleMuscle",
       position: "Front End Developer",
       caption: "Apr 2022 - Present",
       text: [
+        "Artemis Award - 2023",
         "HustleMuscle is a fitness app that revolutionizes your fitness journey with use of 3D avatars.",
         "Powered by FERN stack (Firebase, Express, React, Node.js), Google OAuth & Google Fit API, this project aims to deliver an extraordinary workout experience.",
         "The UI is sleek and designed to captivate all users, drawing inspiration from Apple Fitness.",
-        "We are exploring the potential of generative AI to provide customized workout prescriptions for our users. Join us and embark on a fitness journey like no other.",
+        "We are exploring the potential of gen. AI to provide customized workout prescriptions for our users. Join us and embark on a fitness journey like no other.",
       ],
     },
   ];

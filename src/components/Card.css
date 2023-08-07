@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 45rem;
+  margin: 2rem;
+  background-color: #fff8dc;
+  /* margin-bottom: 3rem; */
+  transition: transform 0.5s, box-shadow 1s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.03) perspective(0px);
+  box-shadow: 5px 5px 20px rgba(60, 60, 93, 0.33);
+  cursor: pointer;
+}

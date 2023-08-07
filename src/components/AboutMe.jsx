@@ -78,6 +78,7 @@ function AboutMe() {
         cultures and perspectives, visited prominent locations such as Alibaba,
         Suzhou Industrial Park and Fudan University.
       </p>
+      <h1>My Socials</h1>
     </div>
   );
 }

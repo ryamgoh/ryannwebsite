@@ -1,0 +1,81 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 40rem;
+  margin: 2rem;
+  background-color: #fff8dc;
+  /* margin-bottom: 3rem; */
+  transition: transform 0.5s, box-shadow 1s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card p,
+.card h4,
+.card h3,
+.card h2 {
+  padding: 0 20px;
+}
+
+.card h4 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 60em) {
+  .card {
+    height: 40rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.card-top {
+  /* display: flex; */
+  height: 42%;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.card-top img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+}
+
+.card-text-scrollable {
+  /* height: 100%; */
+  overflow-x: hidden;
+}
+
+.card-text-scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+.card-bottom {
+  height: 8%; /* 100 - 52 - 40 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text-scrollable-item {
+  padding: 0 20px;
+}
+
+.card-text-caption-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
