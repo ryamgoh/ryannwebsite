@@ -25,22 +25,15 @@ function AboutMe() {
       </div>
       <div className="about-me-two-col">
         <h3>
-          School of Computing (Computer Science) and Second Major in Business;
-          Interested in Solutions Architect, Technical Consultancy, Artificial
-          Intelligence; Relevant Coursework: Data Structures and Algorithms;
-          Object-Oriented Programming (OOP)
+          BComp. In Computer Science; Second Major in Business Administration;{" "}
+          <br />
+          Relevant Coursework: Data Structures and Algorithms; Object-Oriented
+          Programming (OOP); Design Thinking
         </h3>
         <h4>Aug 2022 - 2026</h4>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ad
-        iste obcaecati vero dolorum nulla totam voluptas nisi velit deleniti
-        fuga aspernatur repudiandae pariatur unde ullam nemo minima voluptatem
-        impedit dolore! Odio quibusdam quidem delectus soluta similique? Unde
-        consequatur consequuntur impedit tempore expedita? Blanditiis, eaque
-        corporis facere laborum nulla expedita sapiente aut repellat vel maxime
-        officiis adipisci pariatur sed reiciendis!
-      </p>
+      <p>NUS Student Ambassador (OH); NUS SoC BASH Committee;</p>
+      <p>Case Competitions: NES Ground Zero 2023 - Team Terrace</p>
       {/* School 2 */}
       <div className="about-me-two-col">
         <div className="about-me-title">
@@ -53,14 +46,13 @@ function AboutMe() {
         <h4>2022 - 2024</h4>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ad
-        iste obcaecati vero dolorum nulla totam voluptas nisi velit deleniti
-        fuga aspernatur repudiandae pariatur unde ullam nemo minima voluptatem
-        impedit dolore! Odio quibusdam quidem delectus soluta similique? Unde
-        consequatur consequuntur impedit tempore expedita? Blanditiis, eaque
-        corporis facere laborum nulla expedita sapiente aut repellat vel maxime
-        officiis adipisci pariatur sed reiciendis!
+        UTown Programme (Tembusu College): UTW1001D At the Edges of the Law;
       </p>
+      <p>
+        Tembusu GreenT Chairperson (Responsible for Tembusu Electricity
+        Challenge);
+      </p>
+      <p>Tembusu Flag Committee; ICG Reversi (Gold); IG^2 Member</p>
       {/* School 3 */}
       <div className="about-me-two-col">
         <div className="about-me-title">
@@ -73,13 +65,13 @@ function AboutMe() {
         <h4>2018 - 2019</h4>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ad
-        iste obcaecati vero dolorum nulla totam voluptas nisi velit deleniti
-        fuga aspernatur repudiandae pariatur unde ullam nemo minima voluptatem
-        impedit dolore! Odio quibusdam quidem delectus soluta similique? Unde
-        consequatur consequuntur impedit tempore expedita? Blanditiis, eaque
-        corporis facere laborum nulla expedita sapiente aut repellat vel maxime
-        officiis adipisci pariatur sed reiciendis!
+        VJDance and StudioV (Film Club); Coordinated over 12 performances and
+        concerts.
+      </p>
+      <p>
+        Participated in Shanghai-Suzhou Overseas Exchange; Exposure to multiple
+        cultures and perspectives, visited prominent locations such as Alibaba,
+        Suzhou Industrial Park and Fudan University.
       </p>
     </div>
   );

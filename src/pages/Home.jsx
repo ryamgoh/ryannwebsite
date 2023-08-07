@@ -26,13 +26,15 @@ function Home() {
 
   const workList = [
     {
-      lnk: card1,
+      lnk: "../assets/card3.jpg",
       title: "IMDA",
       position: "Product Management Intern",
       caption: "May 2023 - Aug 2023",
       text: [
-        "Working with SME Go Digital division and other departments to push out Industry Digital Plan (IDP) for Legal and Retail sectors with the role as a solutions curator. ",
-        "Working on the UI/UX component of the IDP design, revamping from PDF to HTML format.",
+        "Design and create a digital, mobile first, Industry Digital Plan (IDP) that becomes the blueprint for SMEs in specific sectors to digitise their business.",
+        "Apply design thinking processes to design IDPs for Retail and Legal Sectors, including identifying user personas, ethnographic research, design workshops, ideation sessions, etc.",
+        "Spearhead meetings and collaborate with team members and external stakeholders, including SMEs and partnering agencies, to build common understanding, project plans, and gain consensus on the team's plans and actions.",
+        "Highly involved with UI/UX team to streamline the next generation of IDP design.",
       ],
     },
     {
