@@ -24,16 +24,19 @@ function AboutMe() {
         </div>
       </div>
       <div className="about-me-two-col">
-        <h3>
-          BComp. In Computer Science; Second Major in Business Administration;{" "}
-          <br />
-          Relevant Coursework: Data Structures and Algorithms; Object-Oriented
-          Programming (OOP); Design Thinking
-        </h3>
+        <h3>School of Computing (Computer Science)</h3>
         <h4>Aug 2022 - 2026</h4>
       </div>
-      <p>NUS Student Ambassador (OH); NUS SoC BASH Committee;</p>
-      <p>Case Competitions: NES Ground Zero 2023 - Team Terrace</p>
+      <p>
+        Interested in Solutions Architect, Technical Consultancy, Artificial
+        Intelligence; Relevant Coursework: Data Structures and Algorithms;
+        Object-Oriented Programming (OOP)
+      </p>
+      <p>Case Competitions: AY22/23 | NES Ground Zero 2023 - Team Terrace</p>
+      <p>
+        Co-Curricular Activities AY22/23 | NUS SoC BASH Marketing Committee
+        AY22/23 | NUS Ambassador (Open House)
+      </p>
       {/* School 2 */}
       <div className="about-me-two-col">
         <div className="about-me-title">
@@ -50,7 +53,9 @@ function AboutMe() {
       </p>
       <p>
         Tembusu GreenT Chairperson (Responsible for Tembusu Electricity
-        Challenge);
+        Challenge); AY22/23 | GreenT Co-President AY22/23 | Reversi (ICG Gold)
+        AY22/23 | IG^2 Modules taken: UTW1001D - On the Edges of the Law
+        UTC1102G - Images
       </p>
       <p>Tembusu Flag Committee; ICG Reversi (Gold); IG^2 Member</p>
       {/* School 3 */}

@@ -1,15 +1,13 @@
 .cards {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .card {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 70vh;
-  flex: 1 0 50%;
+  height: 40rem;
   margin: 2rem;
   background-color: #fff8dc;
   /* margin-bottom: 3rem; */
@@ -34,15 +32,13 @@
   box-shadow: 5px 5px 20px rgba(60, 60, 93, 0.33);
 }
 
-@media screen and (min-width: 60em) {
-  .card {
-    max-width: calc(50% - 7em);
-  }
-}
-
 @media screen and (max-width: 60em) {
   .card {
-    height: 70vh;
+    height: 40rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
